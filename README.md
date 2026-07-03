@@ -2,6 +2,13 @@
 
 just a little experiment using mediapipe to turn my hands into a 3d-connected mess. it tracks both hands and draws lines between the fingertips, creating a kind of glowing web between them, with some simple depth math added, so the lines get thicker and brighter as you bring your hands closer to the camera.
 
+## video demo
+
+<div align="center">
+    <video src="https://github.com/user-attachments/assets/0b4fd90a-0d16-449c-8f70-3c59411dda8b" width="100%" controls></video>
+    <p><i>hand skeleton showcase</i></p>
+</div>
+
 ## getting it running
 
 1. make sure you have python and pip installed.
