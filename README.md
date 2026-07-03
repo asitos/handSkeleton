@@ -1,4 +1,4 @@
-# handskeleton
+# handSkeleton
 
 just a little experiment using mediapipe to turn my hands into a 3d-connected mess. it tracks both hands and draws lines between the fingertips, creating a kind of glowing web between them, with some simple depth math added, so the lines get thicker and brighter as you bring your hands closer to the camera.
 
