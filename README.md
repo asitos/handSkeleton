@@ -1,6 +1,6 @@
 # handSkeleton
 
-just a little experiment using mediapipe to turn my hands into a 3d-connected mess. it tracks both hands and draws lines between the fingertips, creating a kind of glowing web between them, with some simple depth math added, so the lines get thicker and brighter as you bring your hands closer to the camera.
+a little experiment using mediapipe to turn my hands into a 3d-connected mess. it tracks both hands and draws lines between the fingertips, creating a glowing web between them, with some simple depth math added, so the lines get thicker and brighter as you bring your hands closer to the camera.
 
 ## video demo
 
@@ -19,7 +19,7 @@ just a little experiment using mediapipe to turn my hands into a 3d-connected me
 
 --- 
 
-it’s pretty straightforward—it looks for two hands, identifies which is left and which is right, and then starts drawing. if it's struggling to see both, it'll let you know in the hud. just hit 'q' when you're done playing with it.
+it’s pretty straightforward, it looks for two hands, identifies which one is left and which is right, and then starts drawing. if it's struggling to see both, it'll let you know in the hud. just hit 'q' when you're done playing with it.
 
 i attended a workshop held in my college which helped me understand opencv, mediapipe, and basic python, with a pretrained hand_landmarker.task model from google's mediapipe repository.
 
