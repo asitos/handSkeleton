@@ -16,8 +16,6 @@ it’s pretty straightforward—it looks for two hands, identifies which is left
 
 i attended a workshop held in my college which helped me understand opencv, mediapipe, and basic python, with a pretrained hand_landmarker.task model from google's mediapipe repository.
 
----
-
 ## a fun note
 i learned more about vim basics, and how plugins like black help with lazyvim to code in python and get it running, since i didnt want to use vscode or any heavy ide, which helped me learn:
 
