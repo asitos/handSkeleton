@@ -1,0 +1,16 @@
+# handskeleton
+
+just a little experiment using mediapipe to turn my hands into a 3d-connected mess. it tracks both hands and draws lines between the fingertips, creating a kind of glowing web between them. i added some simple depth math so the lines get thicker and brighter as you bring your hands closer to the camera.
+
+## getting it running
+
+1. make sure you have python installed.
+2. install the requirements:
+   `pip install opencv-python mediapipe numpy`
+3. grab the `hand_landmarker.task` file from [google's mediapipe repo](https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task) and drop it in the same folder as this script.
+4. run it: `python handLandmarker.py`
+
+--- 
+
+it’s pretty straightforward—it looks for two hands, identifies which is left and which is right, and then starts drawing. if it's struggling to see both, it'll let you know in the hud. just hit 'q' when you're done playing with it.
+
